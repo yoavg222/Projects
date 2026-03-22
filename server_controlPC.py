@@ -5,8 +5,9 @@ import keyboard
 import json
 
 BIND_IP = "0.0.0.0"
-PORT_KEYBOARD_SOCKET = 12345
+PORT_KEYBOARD_SOCKET = 12346
 BUFFER_SIZE = 1024
+
 
 
 def send_button(button,sock):
